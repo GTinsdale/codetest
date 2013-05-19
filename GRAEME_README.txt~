@@ -1,9 +1,9 @@
 Thoughts on each problem
 
 1: Palindromes
-Added the string library to simplify finding the length of the string, but
-decided to do c-style character access in the loop to keep comparison
-simple.
+This was fairly straight forward.  Added the string library to simplify finding
+the length of the string, but decided to do c-style character access in the loop
+to keep comparison simple.
 
 2: Data Structures
 Decided to add another stack to the class to track the high value, slightly more

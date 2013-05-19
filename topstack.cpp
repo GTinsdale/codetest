@@ -6,6 +6,15 @@
  * April 2013
  */
 
+/**
+
+2: Data Structures
+Decided to add another stack to the class to track the high value, slightly more
+memory usage, but better access time and saves searching for current high value
+when the stack is pushed or popped.
+
+ */
+
 #include <stdio.h>
 #include <stack>
 

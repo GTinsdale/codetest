@@ -6,6 +6,18 @@
  * April 2013
  */
 
+/**
+
+3: Game Logic
+Several different approaches possible, Breadth First, or Dijkstra's algorithm
+are the two most obvious for the solution.  As the graph was unweighted I
+decided upon using a simple breadth first approach rather than a full
+Dijkstra's implementation.  Built using recursion primarily to demonstrate
+a breadth of knowledge, although the use of recursion did result in a bit of
+awkward poorly scaling code to deal with previously visited nodes in the graph.
+
+ */
+
 #include <vector>
 #include <map>
 #include <iostream>

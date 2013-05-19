@@ -6,6 +6,15 @@
  * April 2013
  */
 
+/**
+
+1: Palindromes
+Added the string library to simplify finding the length of the string, but 
+decided to do c-style character access in the loop to keep comparison
+simple.
+
+ */
+
 #include <stdio.h>
 
 //Use the string library
