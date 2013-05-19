@@ -126,6 +126,7 @@ StarList Galaxy::getRouteBetween(Star *a, Star *b, StarList current_route, int c
   std::vector<Star *> nodes = lanes[a];
   
   //check the nodes list for stars we have already visited
+  //this is not a particularly nice way of doing this.
   for(int exists=0;exists<current_route.size();exists++)
     {
       Star aStar = *current_route[exists];
